@@ -1,0 +1,12 @@
+{
+    "manifest_version": 2,
+
+    "name": "OKC walker",
+    "description": "This script walks through multiple profiles, to increase profile views",
+    "version": "1.0",
+
+    "content_scripts": [{
+        "matches": ["https://www.okcupid.com/*"],
+        "js": ["okc-walker.js"]
+    }]
+}
